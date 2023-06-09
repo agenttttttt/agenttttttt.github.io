@@ -183,7 +183,7 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/09/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="D:\blog\xiaohui.jpeg">
+      <meta itemprop="image" content="D:\blog\avatar.png">
       <meta itemprop="name" content="汤淄涵">
       <meta itemprop="description" content="数据库课程设计">
     </span>
@@ -254,6 +254,11 @@
 
           </div>
           
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81ODU2Ny8zNTAzMA=="></div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -307,7 +312,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="汤淄涵"
-      src="D:\blog\xiaohui.jpeg">
+      src="D:\blog\avatar.png">
   <p class="site-author-name" itemprop="name">汤淄涵</p>
   <div class="site-description" itemprop="description">数据库课程设计</div>
 </div>
@@ -322,6 +327,14 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/agenttttttt" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;agenttttttt" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/776736747@qq.com" title="E-Mail → 776736747@qq.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
 
 
 
@@ -403,6 +416,22 @@
   
 
   
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
 
 </body>
 </html>
